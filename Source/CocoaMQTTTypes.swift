@@ -58,6 +58,7 @@ extension UInt8 {
     }
 }
 
+@available(macOS 10.15, *)
 public enum CocoaMQTTError: Error {
     case invalidURL
     case readTimeout
